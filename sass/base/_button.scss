@@ -1,0 +1,60 @@
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 18px 58px 18px 57px;
+  border-radius: 25px;
+  text-align: center;
+  transition: 0.3s;
+  line-height: 1;
+  text-decoration: none;
+  margin-top: 12px;
+  cursor: pointer;
+  border: 2px solid $color-primary;
+  color: $color-primary;
+
+  &:hover {
+    background-color: $color-primary;
+   color:white;
+  }
+}
+
+
+.view-button{
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 16px 6px 14px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  border: 2px solid $color-default;
+  background: $color-default;
+  color: $color-primary;
+ 
+  &:hover {
+    background-color: $color-blue;
+    color: $color-default;
+
+  }
+}
+
+.text-button{
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 1px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 6px 16px 6px 14px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  border: 2px solid #008000;
+  background: #008000;
+  color: $color-default;
+}

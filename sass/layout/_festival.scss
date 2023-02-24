@@ -1,0 +1,87 @@
+.festival_section {
+  .festival {
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    .festival_left {
+      width: 50%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .title_one {
+        padding: 0 0 18px 133px;
+        text-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+        font-size: 36px;
+        letter-spacing: 0.72px;
+        text-align: left;
+        color: #53504a;
+        @media screen and (max-width: 768px) {
+          padding: 0 0 18px 0;
+        }
+      }
+      .title_two {
+        text-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+        padding: 0 0 32px 133px;
+        font-size: 72px;
+        font-weight: bold;
+        line-height: 0.91;
+        letter-spacing: 1.98px;
+        text-align: left;
+        color: #53504a;
+        @media screen and (max-width: 768px) {
+          padding: 0 0 32px 0;
+        }
+      }
+      .button {
+        padding: 18px 52px 18px 63px;
+        border-radius: 25px;
+        margin-left: 133px;
+        @media screen and (max-width: 768px) {
+          margin-left: 0;
+        }
+      }
+    }
+    .festival_right {
+      width: 50%;
+      position: relative;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        padding-top: 27px;
+      }
+      img {
+        width: 620px;
+        height: 580px;
+        // margin: 121px 6px 83px 1px;
+      }
+      .text {
+        position: absolute;
+        color: #fff;
+        bottom: 40px;
+        left: 60px;
+        .text_one {
+          text-shadow: 0 0 9.5px rgba(0, 0, 0, 0.2);
+
+          font-size: 36px;
+          font-weight: bold;
+          line-height: 1;
+          letter-spacing: 0.72px;
+          text-align: left;
+          color: #fafafa;
+          padding-bottom: 15px;
+        }
+        .text_two {
+          font-size: 12px;
+          font-weight: bold;
+          letter-spacing: 1.2px;
+          text-align: left;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

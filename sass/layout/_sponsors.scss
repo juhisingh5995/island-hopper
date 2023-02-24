@@ -1,0 +1,87 @@
+.brands {
+  .brands_sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+
+    .brands_sponsors_heading {
+      width: 50%;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      h1 {
+        color: $color-blue;
+        font-size: 36px;
+        letter-spacing: 0.72px;
+        text-align: left;
+        color: #008caa;
+      }
+
+      .brands_sponsors_right {
+        width: 50%;
+
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          margin: 0 auto;
+        }
+
+        .button {
+          padding: 18px 52px 18px 51px;
+        }
+      }
+    }
+  }
+
+  .customer-logos {
+    .slide {
+      img {
+        width: 262px;
+        height: 146px;
+        margin: 38px 16px 18px 16px;
+        padding: 0 20px;
+      }
+    }
+  }
+
+  .brand_arrows {
+    position: relative;
+
+    .brand_arrow {
+      .fa-solid {
+        &.fa-chevron-left {
+          position: absolute;
+          left: -30px;
+          bottom: 264px;
+
+          &::before {
+            color: red;
+          }
+          @media screen and (max-width: 520px) {
+            display: none;
+            }
+        }
+
+        &.fa-chevron-right {
+          position: absolute;
+          right: -40px;
+          bottom: 264px;
+
+          &::before {
+            color: red;
+          }
+          @media screen and (max-width: 520px) {
+            display: none;
+            }
+        }
+
+      }
+    }
+  }
+}

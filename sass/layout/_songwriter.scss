@@ -1,0 +1,93 @@
+.songwriter_heading {
+    h1 {
+        font-size: 82px;
+        font-weight: bold;
+        line-height: 0.91;
+        letter-spacing: 1.98px;
+        text-align: center;
+        color: $color-blue;
+
+        @media screen and (max-width: 768px) {
+            font-size: 45px;
+            text-align: center;
+        }
+    }
+}
+
+.songwriter_wrapper {
+    display: flex;
+    padding-bottom: 97px;
+    align-items: end;
+    padding-top: 39px;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+
+    .songwriter_img_wrapper {
+        width: 50%;
+        display: flex;
+        padding: 0 17px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            display: block;
+        }
+
+        .img-1 {
+            img {
+                width: 100%;
+                height: 412px;
+            }
+        }
+
+        .img-2 {
+            @media screen and (max-width: 768px) {
+                margin-top:-6px;
+            }
+            img {
+                width: 206px;
+                height: 206px;
+                margin: 0 0 -7px 0;
+                @media screen and (max-width: 768px) {
+                    width:100%;
+                }
+
+            }
+        }
+    }
+
+    .songwriter_content_wrapper {
+        width: 50%;
+        padding: 0 30px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+          
+            padding: 50px 18px;
+        }
+
+        h2 {
+            color: $color-primary;
+            font-size: 24px;
+            letter-spacing: 0.54px;
+            text-align: left;
+            margin-top: 0;
+            padding-bottom: 0;
+            
+        }
+
+        p {
+
+            font-size: 18px;
+            line-height: 1.56;
+            letter-spacing: 0.18px;
+            text-align: justify;
+            color: $color-gray;
+
+            .captive {
+                color: $color-blue;
+            }
+        }
+    }
+}

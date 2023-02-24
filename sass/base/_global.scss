@@ -1,0 +1,88 @@
+@import url(‘https://fonts.cdnfonts.com/css/typold’);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --smaller: 0.75;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: ‘Typold’, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.my_container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 60px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+.p-100 {
+  padding-top: 100px;
+}
+
+i.fa-solid.fa-chevron-right {
+  padding-left: 20px;
+}
+
+.text-img {
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .text {
+    bottom: 32px;
+    left: 18px;
+    position: absolute;
+
+    @media screen and (max-width: 768px) {
+      bottom: 24px;
+      left: 34px;
+    }
+
+  .ashley {
+      color: $color-default;
+      font-size: 34px;
+      font-weight: bold;
+      text-align: left;
+    }
+    p {
+      font-size: 18px;
+      text-align: left;
+      font-weight: 500;
+      color: $color-default;
+    }
+  }
+}
+.venue_right {
+.carousel .indicators .indicator-item.active {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 10px;
+  height: 10px;
+}
+.carousel .indicators .indicator-item {
+  background-color: white;
+}
+}
